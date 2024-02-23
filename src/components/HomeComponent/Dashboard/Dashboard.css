@@ -1,0 +1,25 @@
+.dashboard-title{
+    font-size: 60px;
+}
+
+@media (max-width:900px) {
+    .dashboard-title{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:500px) {
+    .dashboard-container{
+        padding-left: 30px;
+    }
+    .dashboard-title{
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width:370px) {
+    .dashboard-title{
+        width: 200px;
+    }
+}

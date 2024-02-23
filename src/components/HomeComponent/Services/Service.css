@@ -1,0 +1,9 @@
+.services{
+    height: 100vh;
+}
+
+@media (max-width:1470px) {
+    .services{
+        height: 100%;
+    }
+}

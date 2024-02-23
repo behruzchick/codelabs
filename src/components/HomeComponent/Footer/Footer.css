@@ -1,0 +1,16 @@
+.links{
+    flex-direction: column;
+}
+
+.footer-text{
+    font-size: 16px;
+}
+
+@media (max-width:400px) {
+    .footer-text{
+        font-size: 14px;
+    }
+    .contact-block{
+        flex-direction: column;
+    }
+}

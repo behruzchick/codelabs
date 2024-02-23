@@ -1,0 +1,119 @@
+.about-wrape{
+    padding: 30px;
+    gap: 200px;
+    height: 100vh;
+}
+
+
+.about-carousel{
+    margin-left: 50px;
+    width: 700px;
+}
+.about-info{
+    margin-right:100px ;
+    width: 400px;
+    padding: 30px;
+}
+@media (max-width:1150px) {
+    .about-carousel{
+        margin-left: 10px
+    }
+    .about-info{
+        margin-right: 30px;
+    }
+}
+@media (max-width:1130px) {
+    .about-wrape{
+        flex-direction: column;
+        height: 100%;
+    }
+    .about-carousel{
+        margin-left: 0px
+    }
+    .about-info{
+        margin-right: 0px;
+        display: flex;
+        gap: 40px;
+        width: 700px;
+    }
+    .about-info-text{
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+    }
+    .btns_group{
+        display: flex;
+        flex-direction: columnx;
+    }
+}
+
+@media (max-width:720px) {
+    .about-info{
+        flex-direction: column;
+        width: 300px;
+        margin-right: 100px;
+    }
+    .about-info-text{
+        width: 300px;
+    }
+    .btns_group{
+        width: 300px;
+    }
+    .about-carousel{
+        margin-left: 50px;
+        width: 500px;
+    }
+}
+
+@media (max-width:600px) {
+    .about-info{
+        padding-right: 30px;
+    }
+    .about-carousel{
+        margin-left: 20px;
+        width: 400px;
+    }
+}
+
+@media (max-width:430px) {
+    .about-info{
+        width: 300px;
+        gap: 0px;
+    }
+    .about-carousel{
+        margin-left: 0px;
+        width: 280px;
+        height: auto;
+    }
+    .about-info{
+        padding-left: 10px;
+        margin-right: 0px;
+    }
+    .about-info-text{
+        width: 230px;
+        margin-bottom: 0px;
+    }
+    .btns_group{
+        width: 200px;
+    }
+}
+
+@media (max-width:370px) {
+    .about-carousel{
+        width: 230px;
+        height: 210px;
+    }
+    .carousel-img{
+        height: 210px;
+    }
+    .about-info{
+        width: 200px;
+        padding-left: 0px;
+    }
+    .about-info-text{
+        width: 200px;
+    }
+    .btns_group{
+        width: 180px;
+    }
+}

@@ -1,0 +1,137 @@
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    gap: 60px;
+}
+
+.header-wrape{
+    position: absolute;
+    margin-bottom: 30px;
+}
+
+.of-canvas{
+    display: none;
+    padding: 30px;
+}
+
+.nav-number{
+    font-size: 40px;
+    font-weight: 700;
+}
+.menu-btn{
+    display: none;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 40px;
+    position: absolute;
+    opacity: 0;
+}
+
+.navbar-wrap{
+    /* gap: 100px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-link{
+    text-decoration: none;
+    font-size: 24px;
+}
+
+@media (max-width:1590px) {
+    .nav{
+        gap: 10px;
+        margin-left: 50px;
+    }
+    .nav-number{
+        font-size: 30px;
+    }
+    .navbar-wrap{
+        gap: 200px;
+    }
+}
+
+
+@media (max-width:1260px) {
+    .nav{
+        gap: 5px;
+        margin-left: 10px;
+    }
+    .nav-number{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .navbar-wrap{
+        gap: 120px;
+    }
+}
+
+
+
+@media (max-width:970px) {
+    .nav{
+        gap: 5px;
+        margin-left: 110px;
+    }
+    .nav-number{
+        font-size: 20px;
+        font-weight: 700;
+        display: block;
+    }
+    .menu-btn{
+        display: block;
+        opacity: 1;
+        margin-left: 50px;
+        position: relative;
+    }
+    .link{
+        display: none;
+    }
+    .of-canvas{
+        display: block;
+    }
+}
+
+@media (max-width:750px) {
+    .nav{
+        gap: 5px;
+        margin-left: 20px;
+    }
+    .nav-number{
+        font-size: 16px;
+        font-weight: 700;
+        display: block;
+    }
+    .link{
+        display: none;
+    }
+    .of-canvas{
+        display: block;
+    }
+}
+
+@media (max-width:600px) {
+    .nav{
+        margin-left: 0px;
+    }
+    .menu-btn{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:530px) {
+    .navbar-wrap{
+        gap: 100px;
+    }
+    .nav-number{
+        display: none;
+    }
+    .of-canvas{
+        width: 500px;
+    }
+}
+
+
