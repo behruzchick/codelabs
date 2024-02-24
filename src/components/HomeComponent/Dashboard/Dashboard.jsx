@@ -19,10 +19,10 @@ const Dashboard = () => {
        <Container className='dashboard-container' style={{height:"100vh",display:"flex",alignItems:'start',justifyContent:"center",flexDirection:"column"}}>
             <h1 className='dashboard-title' style={{color:"white"}}>Build your dreams <br /> with us</h1>
             <div className="btns_group d-flex gap-3 mt-4">
-                <Button variant='outline-success'  style={{width:"200px",height:"60px",color:"white"}} onClick={() => navigate('/portfolio')}>
+                <Button variant='success'  style={{width:"200px",height:"60px",color:"white"}} onClick={() => navigate('/portfolio')}>
                     Portfolio
                 </Button>
-                <Button variant='outline-secondary' style={{width:"180px",height:"60px",color:'white'}} onClick={handleCopy}>
+                <Button variant='secondary' style={{width:"180px",height:"60px",color:'white'}} onClick={handleCopy}>
                     {text}
                 </Button>
             </div>

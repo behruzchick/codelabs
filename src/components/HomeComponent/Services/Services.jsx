@@ -4,11 +4,12 @@ import AppShortcutIcon from '@mui/icons-material/AppShortcut';
 import LanguageIcon from '@mui/icons-material/Language';
 import DesignServicesIcon from '@mui/icons-material/DesignServices';
 import { useNavigate } from 'react-router-dom';
+import DesktopWindowsIcon from '@mui/icons-material/DesktopWindows';
 import './Service.css'
 const Services = () => {
 
     const navigate = useNavigate();
-    const systems = {tg:"Telegram Bot",wb:"Web site", app:"Mobile app", ui:"UI&UX"};
+    const systems = {tg:"Telegram Bot",wb:"Web site", app:"Mobile app", ui:"UI&UX",dkApps:"Desktop apps",};
 
   return (
     <div className='services bg-dark' style={{width:"100%",display:'flex',alignItems:'center',flexDirection:"column",padding:"30px"}}>
@@ -32,6 +33,14 @@ const Services = () => {
                 <DesignServicesIcon className='mb-3' style={{color:"#20ADFF",cursor:"pointer"}}/>
                 <h5 style={{color:"white"}}>UI&UX</h5>
             </div>
+            <div className="service shadow-sm rounded" style={{width:"600px",background:'#282E32',padding:"30px",cursor:"pointer"}}onClick={() => navigate(`/service/systems/${systems.ui}`)}>
+                <DesignServicesIcon className='mb-3' style={{color:"#20ADFF",cursor:"pointer"}}/>
+                <h5 style={{color:"white"}}>UI&UX</h5>
+            </div>
+            <div className="service shadow-sm rounded" style={{width:"600px",background:'#282E32',padding:"30px",cursor:"pointer"}}onClick={() => navigate(`/service/systems/${systems.dkApps}`)}>
+                <DesktopWindowsIcon className='mb-3' style={{color:"#20ADFF",cursor:"pointer"}}/>
+                <h5 style={{color:"white"}}>Desktop apps</h5>
+            </div>  
         </div>
     </div>
   )

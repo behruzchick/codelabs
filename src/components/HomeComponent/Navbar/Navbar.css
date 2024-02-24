@@ -8,7 +8,8 @@
 }
 
 .header-wrape{
-    position: absolute;
+    position: fixed;
+    z-index: 300;
     margin-bottom: 30px;
 }
 
@@ -27,6 +28,7 @@
     font-weight: 900;
     font-size: 40px;
     position: absolute;
+    color: white;
     opacity: 0;
 }
 
