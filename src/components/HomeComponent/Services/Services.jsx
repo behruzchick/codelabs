@@ -9,7 +9,7 @@ import './Service.css'
 const Services = () => {
 
     const navigate = useNavigate();
-    const systems = {tg:"Telegram Bot",wb:"Web site", app:"Mobile app", ui:"UI&UX",dkApps:"Desktop apps",};
+    const systems = {tg:"Telegram Bot",wb:"Web Site", app:"Mobile app", ui:"UI&UX",dkApps:"Desktop App",};
 
   return (
     <div className='services bg-dark' style={{width:"100%",display:'flex',alignItems:'center',flexDirection:"column",padding:"30px"}}>
@@ -28,10 +28,6 @@ const Services = () => {
             <div className="service shadow-sm rounded" style={{width:"600px",background:'#282E32',padding:"30px",cursor:"pointer"}} onClick={() => navigate(`/service/systems/${systems.app}`)}>
                 <AppShortcutIcon className='mb-3' style={{color:"#20ADFF",cursor:"pointer"}}/>
                 <h5 style={{color:"white"}}>Mobile apps</h5>
-            </div>
-            <div className="service shadow-sm rounded" style={{width:"600px",background:'#282E32',padding:"30px",cursor:"pointer"}}onClick={() => navigate(`/service/systems/${systems.ui}`)}>
-                <DesignServicesIcon className='mb-3' style={{color:"#20ADFF",cursor:"pointer"}}/>
-                <h5 style={{color:"white"}}>UI&UX</h5>
             </div>
             <div className="service shadow-sm rounded" style={{width:"600px",background:'#282E32',padding:"30px",cursor:"pointer"}}onClick={() => navigate(`/service/systems/${systems.ui}`)}>
                 <DesignServicesIcon className='mb-3' style={{color:"#20ADFF",cursor:"pointer"}}/>
