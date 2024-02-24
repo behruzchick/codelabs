@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Button, Form } from 'react-bootstrap'
 import { useParams } from 'react-router-dom'
 import useCreateService from '../../hooks/useCreateService'
-import InputNumber from 'react-input-number'
 import './ServiceCreator.css'
 const ServiceCreator = () => {
     const {systemName} = useParams();
