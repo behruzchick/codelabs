@@ -8,7 +8,7 @@ import './Footer.css'
 const Footer = () => {
     // const navigate = useNavigate();
   return (
-    <footer className='bg-black' style={{width:"100%",padding:"15px",display:"flex", alignItems:"center",justifyContent:"center"}}>
+    <footer id='footer' className='bg-black' style={{width:"100%",padding:"15px",display:"flex", alignItems:"center",justifyContent:"center"}}>
         <div className="contact-block d-flex gap-5" style={{width:"87%",display:"flex", alignItems:"center",justifyContent:"space-evenly"}}>
         <Link to={'/'} style={{textDecoration:"none",color:"white"}}>codelabs.uz</Link>
         <div className="links d-flex gap-3">
